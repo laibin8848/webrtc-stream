@@ -1,0 +1,25 @@
+{
+  "name": "webrtc-demo",
+  "version": "1.0.0",
+  "description": "webrtc-demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "cd webrtc-main && npm install",
+    "poststart": "node server.js"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "laisan",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "koa": "^2.0.0",
+    "koa-send": "^5.0.0",
+    "koa-socket": "^4.4.0",
+    "koa-static": "^5.0.0",
+    "ylru": "^1.2.1"
+  }
+}
